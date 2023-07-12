@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) {
+  .position-md-fixed {
+    position: fixed;
+  }
+}
+.position-md-fixed {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ddd;
+  font-weight: bold;
+}
+.lastDiv:hover {
+  background: rgb(207, 207, 207);
+}
