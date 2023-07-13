@@ -13,3 +13,24 @@
 .lastDiv:hover {
   background: rgb(207, 207, 207);
 }
+.header {
+  background-color: #4e8975;
+}
+.animation {
+  width: 800px;
+  height: 700px;
+  background: url(../image/coding.gif) left top;
+  animation: play-sprite 10s 3s steps(1) infinite;
+}
+
+@keyframes play-sprite {
+  100% {
+    background-position: -400px;
+  }
+}
+.about {
+  background-color: #fff;
+}
+.aboutUs {
+  width: 100%;
+}

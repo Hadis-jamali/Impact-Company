@@ -16,9 +16,9 @@
 
   <body>
     <header class="header">
-      <nav style="background-color: rgb(195 165 165)" class="navbar navbar-expand-md fixed-top">
+      <nav style="background-color: #4e8975" class="navbar navbar-expand-md fixed-top border-bottom">
         <div class="container">
-          <a class="navbar-brand fs-3" href="#">Impact</a>
+          <a class="navbar-brand fs-3 fw-bolder" href="#">Impact</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,10 +33,10 @@
                   <a class="nav-link text-dark fs-5" aria-current="page" href="#"><i class="bi bi-house-fill fs-5 d-md-none px-1"></i> <span class="me-3">Home</span></a>
                 </li>
                 <li class="nav-item px-2">
-                  <a class="nav-link text-dark fs-5" href="#"> <i class="bi bi-info-circle-fill fs-5 d-md-none px-1"></i><span class="me-3">About</span></a>
+                  <a class="nav-link text-dark fs-5" href="#"> <i class="bi bi-info-circle-fill fs-5 d-md-none px-1"></i><span class="me-3">Services</span></a>
                 </li>
                 <li class="nav-item px-2">
-                  <a class="nav-link text-dark fs-5" aria-current="page" href="#"> <i class="bi bi-bag-check-fill fs-5 d-md-none px-1"></i><span class="me-3">Services</span></a>
+                  <a class="nav-link text-dark fs-5" aria-current="page" href="#"> <i class="bi bi-bag-check-fill fs-5 d-md-none px-1"></i><span class="me-3">About</span></a>
                 </li>
                 <li class="nav-item px-2">
                   <a class="nav-link text-dark fs-5" aria-current="page" href="#"> <i class="bi bi-pencil-square fs-5 d-md-none px-1"></i><span class="me-3">Blog</span></a>
@@ -57,7 +57,76 @@
           </div>
         </div>
       </nav>
+      <section class="mt-5 py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 p-5">
+              <h1 class="fs-1 pb-4 fw-bolder">Welcome to Impact</h1>
+              <p class="fs-2 my-3 mt-2">Enjoy the design. <br />It's easy to build a beautiful site by applying one of our pre-designed color palettes and themes in just a few clicks..</p>
+              <button class="btn btn-dark rounded-pill px-4 my-3">Get Started</button>
+              <button class="btn btn-dark rounded-pill px-4">Courses</button>
+            </div>
+            <div class="animation col-md-7"></div>
+          </div>
+        </div>
+      </section>
     </header>
+
+    <section class="py-5">
+      <div class="container align-items-center">
+        <h2 class="text-center fs-1 pb-5">Courses</h2>
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+          <div class="col">
+            <div class="card">
+              <img src="../image/course1.jpg" class="card-img-top border-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Java script</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../image/course2.jpg" class="card-img-top border-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Data Analyst</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../image/course3.jpg" class="card-img-top border-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Css</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-1 about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 p-5">
+            <h1 class="fs-1 pb-4 text-dark fw-bolder">About Us</h1>
+            <p class="fs-5 my-2 mt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe consectetur quaerat enim quos veritatis asperiores blanditiis provident eum quasi pariatur, reprehenderit numquam sit
+              impedit, aspernatur voluptatibus laborum perferendis. Non. Architecto eos praesentium voluptates ipsum neque earum placeat in, explicabo ipsa ut officiis maiores repellat adipisci
+              accusantium, possimus, excepturi aperiam?
+            </p>
+            <button type="button" class="btn btn-secondary p-2 m-1">Read more</button>
+          </div>
+          <div class="col-md-6"><img class="aboutUs" src="../image/cod.jpg" /></div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
