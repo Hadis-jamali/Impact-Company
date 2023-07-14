@@ -34,3 +34,15 @@
 .aboutUs {
   width: 100%;
 }
+.service-box {
+  box-shadow: rgb(0, 0, 0, 0.5) 0px 6px 24px 0px;
+  border-bottom: 4px solid;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.service-box .read-more {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
