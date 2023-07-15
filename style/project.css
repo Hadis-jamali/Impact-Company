@@ -46,3 +46,19 @@
   display: flex;
   justify-content: center;
 }
+
+.service-box.border-warning:hover {
+  background: #ffc107;
+}
+.service-box.border-danger:hover {
+  background: rgb(255, 7, 61);
+}
+.service-box.border-success:hover {
+  background: #007950;
+}
+.service-box:hover {
+  color: #fff;
+}
+.service-box:hover .read-more {
+  color: #fff !important;
+}
