@@ -62,3 +62,19 @@
 .service-box:hover .read-more {
   color: #fff !important;
 }
+.card-box:hover {
+  transform: scale(1.05);
+}
+.card-box {
+  transition: all 0.5s;
+}
+.footer{
+  background-color: #4e8975;
+}
+.footer-link{
+  text-decoration: none;
+ color: #fff;
+}
+.adress-footer{
+  color: #fff;
+}
