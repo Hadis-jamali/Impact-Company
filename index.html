@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>web site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style/project.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  
+  <body>
+    <header class="header">
+      <nav style="background-color: #4e8975" class="navbar navbar-expand-md fixed-top border-bottom">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bolder" href="#">Impact</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title fs-2" id="offcanvasNavbarLabel">Impact</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dark fs-5" aria-current="page" href="#"><i class="bi bi-house-fill fs-5 d-md-none px-1"></i> <span class="me-3">Home</span></a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dark fs-5" href="#"> <i class="bi bi-info-circle-fill fs-5 d-md-none px-1"></i><span class="me-3">Services</span></a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dark fs-5" aria-current="page" href="#"> <i class="bi bi-bag-check-fill fs-5 d-md-none px-1"></i><span class="me-3">About</span></a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dark fs-5" aria-current="page" href="#"> <i class="bi bi-pencil-square fs-5 d-md-none px-1"></i><span class="me-3">Blog</span></a>
+                </li>
+                <li class="nav-item px-2">
+                  <a id="caret" class="nav-link text-dark fs-5" href="#collapseExample" role="button" data-bs-toggle="collapse" aria-expanded="false">
+                    <i class="bi bi-arrow-right-circle-fill fs-5 d-md-none px-1"></i><span class="me-3">Dropdown</span><i class="bi bi-caret-down"></i>
+                  </a>
+                  <div class="collapse position-md-fixed bg-light p-1" id="collapseExample">
+                    <p class="lastDiv">Drop down1</p>
+                    <p class="lastDiv">Drop down2</p>
+                    <p class="lastDiv">Drop down3</p>
+                    <p class="lastDiv">Drop down4</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="mt-5 py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 p-5">
+              <h1 class="fs-1 pb-4 fw-bolder">Welcome to Impact</h1>
+              <p class="fs-2 my-3 mt-2">Enjoy the design. <br />It's easy to build a beautiful site by applying one of our pre-designed color palettes and themes in just a few clicks..</p>
+              <button class="btn btn-dark rounded-pill px-4 my-3">Get Started</button>
+              <button class="btn btn-dark rounded-pill px-4">Courses</button>
+            </div>
+            <div class="animation col-md-7"></div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="py-5 px-3">
+      <div class="container align-items-center">
+        <h2 class="text-center fs-1 pb-5">Courses</h2>
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+          <div class="col">
+            <div class="card" data-aos-duration="2500" data-aos="fade-up-right">
+              <img src="image/course1.jpg" class="card-img-top border-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Java script</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos-duration="2500" data-aos="fade-up">
+              <img src="image/course2.jpg" class="card-img-top border-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Data Analyst</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos-duration="2500" data-aos="fade-up-left">
+              <img src="image/course3.jpg" class="card-img-top border-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Css</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 py-5">
+      <div class="container text-center">
+        <h2>Statistics make us proud</h2>
+        <p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row gy-4 fs-5 text-center row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <div class="shadow p-3 rounded-3">
+              <span class="purecounter fw-bolder fs-3" data-purecounter-start="0" data-purecounter-end="850">850</span>
+              <h2>Happy Clients</h2>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow p-3 rounded-3">
+              <span class="purecounter fw-bolder fs-3" data-purecounter-start="0" data-purecounter-end="622">622</span>
+              <h2>Projects</h2>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow p-3 rounded-3">
+              <span class="purecounter fw-bolder fs-3" data-purecounter-start="0" data-purecounter-end="740">740</span>
+              <h2>Hours Of Support</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-1">
+      <div class="container">
+        <h2 class="text-center mt-5 pt-5">Common questions</h2>
+        <div class="row align-items-center">
+          <div class="col-md-5 p-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">question 1</button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, odio. Nobis qui perspiciatis omnis ab totam natus veniam, voluptatum, voluptate, vel ipsa consequuntur consectetur
+                    dolorum animi. Dignissimos dolores sed distinctio!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">question 2</button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, perferendis voluptates ab ullam eius natus minus sapiente quibusdam repellendus pariatur eveniet non vero
+                    corporis vitae hic! Autem dolorem in impedit.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    question 3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat voluptatum temporibus rem molestiae, illo omnis, soluta et sapiente delectus dolore cupiditate facilis
+                    voluptatibus quod consequuntur ex praesentium perspiciatis cum!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                    question 4
+                  </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque expedita quibusdam recusandae est nesciunt optio atque minus doloribus accusantium in, temporibus, consectetur modi
+                    cupiditate! Commodi earum ratione ipsa dicta ab.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                    question 5
+                  </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora facere rerum quis dolor doloremque porro incidunt quas aut! Veniam ipsam doloremque hic aut excepturi fuga,
+                    quaerat commodi alias ut minima!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-1"><img class="img-fluid" src="image/question.jpg" /></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container py-5 px-3 ">
+        <h2 class="text-center py-5 ">Buy Courses</h2>
+        <div class="row text-center gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+          <div class="col card-box">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="fw-bold my-3">Java script Course</h5>
+                <img class="img-fluid" src="image/buy.jpg">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item d-flex align-items-center"><i class="bi bi-alarm p-3 fs-4"></i><span class="fs-5">Time</span></li>
+                  <li class="list-group-item d-flex align-items-center"><i class="bi bi-credit-card-2-back p-3 fs-4"></i></i><span class="fs-5">Pay</span></li>
+                  <li class="list-group-item d-flex align-items-center"><i class="bi bi-chat-heart p-3 fs-4"></i><span class="fs-5">Comments</span></li>
+                </ul>
+                <button class="btn btn-secondary px-5">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col card-box">
+            <div class="card shadow">
+            <div class="card-body">
+              <h5 class="fw-bold my-3">React Course</h5>
+              <img class="img-fluid" src="image/buy.jpg">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-alarm p-3 fs-4"></i><span class="fs-5">Time</span></li>
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-credit-card-2-back p-3 fs-4"></i></i><span class="fs-5">Pay</span></li>
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-chat-heart p-3 fs-4"></i><span class="fs-5">Comments</span></li>
+              </ul>
+              <button class="btn btn-secondary px-5">Buy</button>
+            </div>
+          </div></div>
+          <div class="col card-box"><div class="card shadow">
+            <div class="card-body">
+              <h5 class="fw-bold my-3">Css Course</h5>
+              <img class="img-fluid" src="image/buy.jpg">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-alarm p-3 fs-4"></i><span class="fs-5">Time</span></li>
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-credit-card-2-back p-3 fs-4"></i></i><span class="fs-5">Pay</span></li>
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-chat-heart p-3 fs-4"></i><span class="fs-5">Comments</span></li>
+              </ul>
+              <button class="btn btn-secondary px-5">Buy</button>
+            </div>
+          </div></div>
+          <div class="col card-box"><div class="card shadow">
+            <div class="card-body">
+              <h5 class="fw-bold my-3">Html Course</h5>
+              <img class="img-fluid" src="image/buy.jpg">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-alarm p-3 fs-4"></i><span class="fs-5">Time</span></li>
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-credit-card-2-back p-3 fs-4"></i></i><span class="fs-5">Pay</span></li>
+                <li class="list-group-item d-flex align-items-center"><i class="bi bi-chat-heart p-3 fs-4"></i><span class="fs-5">Comments</span></li>
+              </ul>
+              <button class="btn btn-secondary px-5">Buy</button>
+            </div>
+          </div></div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="text-center mt-5 pt-5">Service</h2>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-box border-danger p-5 m-5">
+              <i class="bi bi-cup-hot-fill fs-1"></i>
+              <h3></h3>
+              <p class="pt-3 pb-5">Lorem ipsum dolor sit amet</p>
+              <a class="read-more text-danger" href="#"><i class="bi bi-caret-left fs-5"></i><span class="fs-5">load more</span></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-box border-success p-5 m-5">
+              <i class="bi bi-bar-chart-line-fill fs-1"></i>
+              <h3></h3>
+              <p class="pt-3 pb-5">Lorem ipsum dolor sit amet</p>
+              <a class="read-more text-success" href="#"><i class="bi bi-caret-left fs-5"></i><span class="fs-5">load more</span></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-box border-warning p-5 m-5">
+              <i class="bi bi-bug-fill fs-1"></i>
+              <h3></h3>
+              <p class="pt-3 pb-5">Lorem ipsum dolor sit amet</p>
+              <a class="read-more text-warning" href="#"><i class="bi bi-caret-left fs-5"></i><span class="fs-5">load more</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-1 about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 p-5">
+            <h1 class="fs-1 pb-4 text-dark fw-bolder">About Us</h1>
+            <p class="fs-5 my-2 mt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe consectetur quaerat enim quos veritatis asperiores blanditiis provident eum quasi pariatur, reprehenderit numquam sit
+              impedit, aspernatur voluptatibus laborum perferendis. Non. Architecto eos praesentium voluptates ipsum neque earum placeat in, explicabo ipsa ut officiis maiores repellat adipisci
+              accusantium, possimus, excepturi aperiam?
+            </p>
+            <button type="button" class="btn btn-secondary p-2 m-1">Read more</button>
+          </div>
+          <div class="col-md-6"><img class="aboutUs" src="image/cod.jpg" /></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="px-5 py-5 footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 me-5">
+            <h1 class="fs-1 pb-4 fw-bolder">Impact.ir</h1>
+            <p class="fs-4 my-3 mt-2 adress-footer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, sequi sed architecto neque error accusantium.</p>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="fw-bold border-bottom border-4 border-warning text-center p-3">Useful Links</h4>
+            <p><i class="bi bi-caret-right"></i><a class="footer-link" href="#">Home</a></p>
+            <p><i class="bi bi-caret-right"></i><a class="footer-link" href="#">About us</a></p>
+            <p><i class="bi bi-caret-right"></i><a class="footer-link" href="#">Terms of service</a></p>
+            <p><i class="bi bi-caret-right"></i><a class="footer-link" href="#">Privacy policy</a></p>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="fw-bold border-bottom border-4 border-warning text-center p-3">Contact Us</h4>
+            <p class="adress-footer">Dagmar Hansens Gade,Riskkov,Aarhus
+              </p>
+            <p class="adress-footer"><span class="fw-bold adress-footer">Phone: </span>49280402</p>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/project.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
+  </body>
+</html>
